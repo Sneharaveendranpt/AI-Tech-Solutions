@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Tech Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body, html {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+    .section-bg {
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      padding: 100px 0;
+      position: relative;
+    }
+    .overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+    .section-content {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    footer {
+      background-color: #222;
+      padding: 20px 0;
+      text-align: center;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top bg-opacity-75">
+    <div class="container">
+      <a class="navbar-brand" href="#">AI Tech Solutions</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home-section">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services-section">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact-section">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<section id="home-section" class="section-bg" style="background-image: url('https://images.pexels.com/photos/6153343/pexels-photo-6153343.jpeg?auto=compress&cs=tinysrgb&w=1470');">
+    <div class="overlay"></div>
+    <div class="section-content text-white">
+      <h1 class="display-4 fw-bold">Welcome to AI Tech Solutions</h1>
+      <p class="lead mt-3">
+        Innovating with Artificial Intelligence, Machine Learning, and Automation to transform your business.<br><br>
+        At AI Tech Solutions, we harness the power of intelligent systems to streamline operations, drive data-driven decision-making, and create smarter customer experiences. From predictive analytics to real-time automation, we deliver scalable, reliable, and future-ready solutions tailored to your industry needs.
+      </p>
+      <a href="#services-section" class="btn btn-primary btn-lg mt-4">Get Started</a>
+    </div>
+  </section>
+  <section id="services-section" class="section-bg" style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1470&q=80');">
+    <div class="overlay"></div>
+    <div class="section-content text-white">
+      <h2>Our Services</h2>
+      <p>
+        We provide AI-powered solutions including machine learning, natural language processing (NLP), computer vision, and data analytics. Our intelligent systems are designed to help businesses automate workflows, gain deep insights from data, and enhance user experience through smart interfaces.<br><br>
+        Whether you're looking to build a recommendation engine, deploy predictive analytics, or develop conversational AI, our team delivers customized, scalable solutions tailored to your needs. We also specialize in AI integration with cloud platforms like AWS, Azure, and Google Cloud — ensuring performance, security, and flexibility.<br><br>
+        From startups to enterprises, we empower organizations to unlock the full potential of artificial intelligence and stay competitive in a rapidly evolving digital landscape.
+      </p>
+    </div>
+  </section>
+  <section id="about-section" class="section-bg" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1470&q=80');">
+    <div class="overlay"></div>
+    <div class="section-content text-white">
+      <h2>About Us</h2>
+      <p>
+        AI Tech Solutions is a leader in AI innovation, dedicated to transforming industries through intelligent technologies. Our mission is to empower businesses by integrating cutting-edge artificial intelligence into real-world applications—helping them achieve smarter operations, data-driven decisions, and enhanced customer experiences.<br><br>
+        With expertise in machine learning, natural language processing, computer vision, and predictive analytics, we build scalable and secure solutions that deliver real impact. Our team of AI engineers, data scientists, and cloud architects work closely with clients to understand their needs and design systems that are reliable, ethical, and future-ready.<br><br>
+        Whether it's developing AI-powered chatbots, automating business processes, or deploying enterprise-grade models on cloud platforms, AI Tech Solutions stays at the forefront of technology innovation. We don’t just create software — we shape intelligent ecosystems that drive digital transformation and long-term success.
+      </p>
+    </div>
+  </section>
+   
+ <section id="contact-section" class="section-bg" style="background-image: url('https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=600');">
+  <div class="overlay"></div>
+  <div class="section-content text-white">
+    <h2>Contact Us</h2>
+    <p>
+      Reach out to discuss how AI can transform your business.<br>
+      Our team will get back to you as soon as possible.
+    </p>
+     <form class="mt-4 text-start mx-auto" style="max-width: 600px;">
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="mb-3">
+        <label for="subject" class="form-label">Subject</label>
+        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+</section>
+  <footer>
+  <div class="container">
+    <p class="mb-2">&copy; 2025 AI Tech Solutions. All rights reserved.</p>
+    <div class="d-flex justify-content-center gap-4 fs-4">
+      <a href="mailto:contact@aitech.com" class="text-white" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://instagram.com/aitechsolutions" target="_blank" class="text-white" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://facebook.com/aitechsolutions" target="_blank" class="text-white" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://linkedin.com/company/aitechsolutions" target="_blank" class="text-white" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
